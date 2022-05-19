@@ -31,8 +31,6 @@ header {
 .sitenavlink {
   color: var(--primary-text-color);
   text-decoration: none;
-  
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -45,15 +43,19 @@ header {
 .contacts {
   color: var(--secondary-text-color);
   text-decoration: none;
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .contacts:hover,
-.contacts:focus {
+.contacts:focus,
+.contacts-footer:hover,
+.contacts-footer:focus {
   color: var(--accent-color);
+}
+button {
+  cursor: pointer;
 }
 /* Page index */ 
 .hero {
@@ -91,7 +93,6 @@ header {
 
 .benefits-description {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -122,7 +123,6 @@ header {
 }
 .our-team-position {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -152,7 +152,6 @@ header {
 }
 .work-examples-type {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -163,15 +162,15 @@ footer {
 }
 .address-footer {
   color: #FFFFFF;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
+/*hover and focus are withing the header contact settings */
